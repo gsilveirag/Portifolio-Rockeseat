@@ -14,8 +14,7 @@ body{
 
 #container{
     width: 360px;
-    margin: 56px auto 0px auto;
-    
+    margin: 56px auto 0px auto; 
 }
 
 #profile {
@@ -24,8 +23,9 @@ body{
 }
 
 #profile img{
+    border: solid 3px white;
     border-radius: 400px;
-    width: 112px;
+    width: 122px;
     display: block;
     margin: auto;
 }
@@ -59,4 +59,27 @@ ul li a{
     font-weight: 500;
     font-size: 16px;
     text-decoration: none;
+}
+
+ul li:hover{
+    background-color: rgba(227, 236, 209, 0.162);
+    transition: 0.9s;
+}
+
+/* FOOTER */
+#meuDiv{
+    margin-top: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+
+/* IMAGENS */
+img{
+    width: 20px;
 }
