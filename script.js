@@ -1,3 +1,4 @@
+// Script Index
 const meuBotao = document.getElementById("meuBotao");
 const minhaDiv = document.getElementById("meuDiv");
 
@@ -29,13 +30,16 @@ const imagens = [
      minhaDiv.appendChild(link);
  
  
-     // Remove os elementos após 5 segundos 
+     // Remove os elementos e limpa a div 
      setTimeout(() => {
          minhaDiv.innerHTML = "";
          minhaDiv.style.backgroundColor = 'transparent'
-       }, 15000); 
+       }, 10000); 
         });
 
  })
+
+
+ // Script Portifolio
 
 
