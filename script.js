@@ -10,6 +10,7 @@ const imagens = [
   ];
   
   meuBotao.addEventListener("click", function() {
+    minhaDiv.innerHTML = "";
     // Muda a cor de Fundo
     minhaDiv.style.backgroundColor = "rgb(230, 227, 248)"
 
